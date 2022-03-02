@@ -1,0 +1,23 @@
+{
+  "name": "blocknauts",
+  "version": "1.0.0",
+  "description": "Web3 cross-site preferences",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/web3con22-team/Blocknauts.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/web3con22-team/Blocknauts/issues"
+  },
+  "homepage": "https://github.com/web3con22-team/Blocknauts#readme",
+  "devDependencies": {
+    "webpack": "^5.69.1",
+    "webpack-cli": "^4.9.2"
+  }
+}

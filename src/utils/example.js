@@ -5,7 +5,7 @@ const preferences = {
     font: '#131313',
   },
   cookies: {
-    accept: 'strictly-necessary',
+    strictly_necessary: true,
   },
 };
 

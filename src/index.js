@@ -1,5 +1,3 @@
-import { preferences } from './utils/example.js';
-import Web3 from 'web3';
 import { ethers } from 'ethers';
 import { Web3Storage } from 'web3.storage'
 import contractABI from './utils/abi.js'
@@ -22,11 +20,9 @@ export const getPreferences = async (address, API_TOKEN) => {
     const ipfsURL = `https://${files[0].cid}.ipfs.dweb.link`
     
     Axios.get(ipfsURL).then(response => {
-      console.log(response.data)
       return response.data
     })
   } catch (err) {
-    console.log(err)
     return {error: err}
   }
 };
